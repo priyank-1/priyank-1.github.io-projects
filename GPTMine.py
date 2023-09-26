@@ -8,7 +8,7 @@ api_key = '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'
 openai.api_key = api_key
 
 # Define the path to your Excel file containing questions
-excel_file_path = "ques.xlsx"
+excel_file_path = "./ques.xlsx"
 
 # Load questions from the Excel file into a DataFrame
 df = pd.read_excel(excel_file_path)
