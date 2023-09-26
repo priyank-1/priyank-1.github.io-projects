@@ -1,5 +1,9 @@
 {
-  "name": "My AI Chatbot",
-  "runtime":"python",
- 
+  "version": 2,
+  "builds": [
+    { "src": "GPTMine.py", "use": "@vercel/python" }
+  ],
+  "routes": [
+    { "src": "/", "dest": "GPTMine.py" }
+  ]
 }
