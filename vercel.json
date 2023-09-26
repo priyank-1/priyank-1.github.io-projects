@@ -1,5 +1,5 @@
 {
-    "name": "my-python-chatbot",
-    "version": "1.0.0",
-    "entrypoint": "GPTMine.py"
-  }
+  "name": "My AI Chatbot",
+  "version": "3.9",
+  "buildCommand": "python -m venv venv && source venv/bin/activate && pip install -r requirements.txt"
+}
